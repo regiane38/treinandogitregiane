@@ -1,0 +1,74 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/linux,windows,macos
+# Edite em https://www.toptal.com/developers/gitignore?templates=linux,windows,macos
+
+### Linux ###
+* ~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver um identificador aberto de um arquivo excluído
+.fuse_hidden *
+
+# Preferências de diretório do KDE
+.diretório
+
+# Pasta de lixo do Linux que pode aparecer em qualquer partição ou disco
+.Lixo-*
+
+# .nfs arquivos são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs *
+
+### Mac OS ###
+# Em geral
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# O ícone deve terminar com dois \ r
+Ícone
+
+
+# Miniaturas
+._ *
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados em compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta de lixo da rede
+Itens Temporários
+.apdisk
+
+### Janelas ###
+# Arquivos de cache de miniatura do Windows
+Thumbs.db
+Thumbs.db: criptografável
+ehthumbs.db
+ehthumbs_vista.db
+
+# Despejar arquivo
+* .stackdump
+
+# Arquivo de configuração de pasta
+[Dd] esktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$ RECYCLE.BIN /
+
+# Arquivos do Windows Installer
+*.táxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Atalhos do Windows
+* .lnk
+
+# Fim de https://www.toptal.com/developers/gitignore/api/linux,windows,macos
